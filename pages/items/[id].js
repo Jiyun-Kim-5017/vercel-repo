@@ -5,6 +5,7 @@ import styles from "@/styles/Product.module.css";
 import SizeReviewList from "@/components/SizeReviewList";
 import StarRating from "@/components/StarRating";
 import Image from "next/image";
+import heartImage from "@/public/heart.svg";
 
 export default function Product() {
     const [product, setProduct] = useState();
@@ -91,7 +92,10 @@ export default function Product() {
                                     <tr>
                                         <th>좋아요</th>
                                         <td className={styles.like}>
-                                            ♥
+                                            <Image
+                                                src={heartImage}
+                                                alt="좋아요"
+                                            />{" "}
                                             {product.likeCount.toLocaleString()}
                                         </td>
                                     </tr>
@@ -102,9 +106,6 @@ export default function Product() {
                     <section className={styles.section}>
                         <h2 className={styles.sectionTitle}>사이즈 추천</h2>
                         <SizeReviewList sizeReviews={sizeReviews ?? []} />
-                    </section>
-                    <section className={styles.section}>
-                        <h2 className={styles.sectionTitle}>사이즈 추천하기</h2>
                     </section>
                 </div>
             </div>

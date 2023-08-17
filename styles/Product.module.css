@@ -37,6 +37,7 @@
     overflow: hidden;
     border-radius: 10px;
     aspect-ratio: 1 / 1;
+    margin-top: 10px;
 }
 
 .section + .section {
@@ -65,7 +66,7 @@
 .infoTable {
     width: 100%;
     margin: 20px 0;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     border-spacing: 30px 10px;
 }
@@ -93,6 +94,7 @@
 
 .like {
     color: #e85b81;
+    align-items: center;
 }
 
 .sizeForm {

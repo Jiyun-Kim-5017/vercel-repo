@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>codeitmall</title>
+                <title>Codeitmall</title>
             </Head>
             <SearchForm />
             <ProductList className={styles.productList} products={products} />
