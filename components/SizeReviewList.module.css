@@ -7,6 +7,7 @@
     overflow-y: auto;
     list-style: none;
     font-size: 15px;
+    word-break: keep-all;
 }
 
 .sizeReview {
@@ -53,4 +54,17 @@
 :global(.light) .fit {
     color: #1f1f1f;
     background-color: #ededed;
+}
+
+@media (max-width: 768px) {
+    .sizeReview {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    .fit {
+        width: 30%;
+        padding: 8px;
+        line-height: 15px;
+    }
 }

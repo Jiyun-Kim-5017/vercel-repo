@@ -36,3 +36,24 @@
     color: #f9f9f9;
     background-color: #505050;
 }
+
+@media (max-width: 768px) {
+    .searchForm {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .searchInput {
+        width: 200px;
+        padding: 0px 10px;
+        border-radius: 5px;
+    }
+
+    .searchButton {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-family: "Orbit", sans-serif;
+    }
+}

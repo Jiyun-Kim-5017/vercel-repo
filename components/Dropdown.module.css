@@ -63,3 +63,19 @@
 :global(.light) .option:hover {
     background-color: #cfcfcf;
 }
+
+@media (max-width: 768px) {
+    .input {
+        padding: 5px 15px;
+        border-radius: 5px;
+        line-height: 23px;
+    }
+
+    .options {
+        padding: 8px;
+    }
+
+    .option {
+        padding: 4px;
+    }
+}

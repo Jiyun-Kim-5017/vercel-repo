@@ -83,3 +83,21 @@
     color: #e85b81;
     font-size: 15px;
 }
+
+@media (max-width: 768px) {
+    .productList {
+        display: inline;
+        grid-template-columns: 100%;
+        margin-top: 30px;
+    }
+
+    .productList li {
+        width: 70%;
+        margin: 0 15% 40px;
+    }
+
+    .content {
+        padding: 10px 20px;
+        letter-spacing: -0.03em;
+    }
+}

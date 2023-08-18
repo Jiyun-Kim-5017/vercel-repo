@@ -13,3 +13,11 @@
     color: #505050;
     background-color: #e1e1e1;
 }
+
+@media (max-width: 768px) {
+    .input {
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}

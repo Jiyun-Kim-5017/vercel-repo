@@ -15,3 +15,13 @@
     color: #f9f9f9;
     background-color: #505050;
 }
+
+@media (max-width: 768px) {
+    .button {
+        width: 50%;
+        padding: 5px;
+        margin: 15px 25% 7px 25%;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}
