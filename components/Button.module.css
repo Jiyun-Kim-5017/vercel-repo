@@ -9,6 +9,12 @@
     background: #e1e1e1;
     border: none;
     border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+:global(.dark) .button {
+    color: #1f1f1f;
 }
 
 :global(.light) .button {
